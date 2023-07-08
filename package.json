@@ -32,6 +32,7 @@
     "url": "http://github.com/go-macaroon/js-macaroon.git"
   },
   "scripts": {
+    "audit.production": "yarn audit --groups dependencies",
     "lint": "eslint .",
     "test": "node test/test.js",
     "check": "npm run lint && npm t",
